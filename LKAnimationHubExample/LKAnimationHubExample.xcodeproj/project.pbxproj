@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4237E63E2179D2A10012EE3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4237E63D2179D2A10012EE3E /* AppDelegate.m */; };
+		4237E6412179D2A10012EE3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4237E6402179D2A10012EE3E /* ViewController.m */; };
+		4237E6442179D2A10012EE3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4237E6422179D2A10012EE3E /* Main.storyboard */; };
+		4237E6462179D2A20012EE3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4237E6452179D2A20012EE3E /* Assets.xcassets */; };
+		4237E6492179D2A20012EE3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4237E6472179D2A20012EE3E /* LaunchScreen.storyboard */; };
+		4237E64C2179D2A20012EE3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4237E64B2179D2A20012EE3E /* main.m */; };
+		4237E6562179D2A20012EE3E /* LKAnimationHubExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4237E6552179D2A20012EE3E /* LKAnimationHubExampleTests.m */; };
+		4237E6612179D2A20012EE3E /* LKAnimationHubExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4237E6602179D2A20012EE3E /* LKAnimationHubExampleUITests.m */; };
+		4237E6712179D2DF0012EE3E /* LKAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4237E6702179D2DF0012EE3E /* LKAnimationView.m */; };
+		4237E6742179D3ED0012EE3E /* LKAnimationHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 4237E6732179D3ED0012EE3E /* LKAnimationHub.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4237E6522179D2A20012EE3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4237E6312179D2A10012EE3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4237E6382179D2A10012EE3E;
+			remoteInfo = LKAnimationHubExample;
+		};
+		4237E65D2179D2A20012EE3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4237E6312179D2A10012EE3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4237E6382179D2A10012EE3E;
+			remoteInfo = LKAnimationHubExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4237E6392179D2A10012EE3E /* LKAnimationHubExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKAnimationHubExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4237E63C2179D2A10012EE3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4237E63D2179D2A10012EE3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4237E63F2179D2A10012EE3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4237E6402179D2A10012EE3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4237E6432179D2A10012EE3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4237E6452179D2A20012EE3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4237E6482179D2A20012EE3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4237E64A2179D2A20012EE3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4237E64B2179D2A20012EE3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4237E6512179D2A20012EE3E /* LKAnimationHubExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKAnimationHubExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4237E6552179D2A20012EE3E /* LKAnimationHubExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKAnimationHubExampleTests.m; sourceTree = "<group>"; };
+		4237E6572179D2A20012EE3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4237E65C2179D2A20012EE3E /* LKAnimationHubExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKAnimationHubExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4237E6602179D2A20012EE3E /* LKAnimationHubExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKAnimationHubExampleUITests.m; sourceTree = "<group>"; };
+		4237E6622179D2A20012EE3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4237E66F2179D2DF0012EE3E /* LKAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKAnimationView.h; sourceTree = "<group>"; };
+		4237E6702179D2DF0012EE3E /* LKAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKAnimationView.m; sourceTree = "<group>"; };
+		4237E6722179D3ED0012EE3E /* LKAnimationHub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKAnimationHub.h; sourceTree = "<group>"; };
+		4237E6732179D3ED0012EE3E /* LKAnimationHub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKAnimationHub.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4237E6362179D2A10012EE3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4237E64E2179D2A20012EE3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4237E6592179D2A20012EE3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4237E6302179D2A10012EE3E = {
+			isa = PBXGroup;
+			children = (
+				4237E63B2179D2A10012EE3E /* LKAnimationHubExample */,
+				4237E6542179D2A20012EE3E /* LKAnimationHubExampleTests */,
+				4237E65F2179D2A20012EE3E /* LKAnimationHubExampleUITests */,
+				4237E63A2179D2A10012EE3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4237E63A2179D2A10012EE3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4237E6392179D2A10012EE3E /* LKAnimationHubExample.app */,
+				4237E6512179D2A20012EE3E /* LKAnimationHubExampleTests.xctest */,
+				4237E65C2179D2A20012EE3E /* LKAnimationHubExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4237E63B2179D2A10012EE3E /* LKAnimationHubExample */ = {
+			isa = PBXGroup;
+			children = (
+				4237E66E2179D2A90012EE3E /* LKAnimationHub */,
+				4237E63C2179D2A10012EE3E /* AppDelegate.h */,
+				4237E63D2179D2A10012EE3E /* AppDelegate.m */,
+				4237E63F2179D2A10012EE3E /* ViewController.h */,
+				4237E6402179D2A10012EE3E /* ViewController.m */,
+				4237E6422179D2A10012EE3E /* Main.storyboard */,
+				4237E6452179D2A20012EE3E /* Assets.xcassets */,
+				4237E6472179D2A20012EE3E /* LaunchScreen.storyboard */,
+				4237E64A2179D2A20012EE3E /* Info.plist */,
+				4237E64B2179D2A20012EE3E /* main.m */,
+			);
+			path = LKAnimationHubExample;
+			sourceTree = "<group>";
+		};
+		4237E6542179D2A20012EE3E /* LKAnimationHubExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4237E6552179D2A20012EE3E /* LKAnimationHubExampleTests.m */,
+				4237E6572179D2A20012EE3E /* Info.plist */,
+			);
+			path = LKAnimationHubExampleTests;
+			sourceTree = "<group>";
+		};
+		4237E65F2179D2A20012EE3E /* LKAnimationHubExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4237E6602179D2A20012EE3E /* LKAnimationHubExampleUITests.m */,
+				4237E6622179D2A20012EE3E /* Info.plist */,
+			);
+			path = LKAnimationHubExampleUITests;
+			sourceTree = "<group>";
+		};
+		4237E66E2179D2A90012EE3E /* LKAnimationHub */ = {
+			isa = PBXGroup;
+			children = (
+				4237E66F2179D2DF0012EE3E /* LKAnimationView.h */,
+				4237E6702179D2DF0012EE3E /* LKAnimationView.m */,
+				4237E6722179D3ED0012EE3E /* LKAnimationHub.h */,
+				4237E6732179D3ED0012EE3E /* LKAnimationHub.m */,
+			);
+			path = LKAnimationHub;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4237E6382179D2A10012EE3E /* LKAnimationHubExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4237E6652179D2A20012EE3E /* Build configuration list for PBXNativeTarget "LKAnimationHubExample" */;
+			buildPhases = (
+				4237E6352179D2A10012EE3E /* Sources */,
+				4237E6362179D2A10012EE3E /* Frameworks */,
+				4237E6372179D2A10012EE3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKAnimationHubExample;
+			productName = LKAnimationHubExample;
+			productReference = 4237E6392179D2A10012EE3E /* LKAnimationHubExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4237E6502179D2A20012EE3E /* LKAnimationHubExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4237E6682179D2A20012EE3E /* Build configuration list for PBXNativeTarget "LKAnimationHubExampleTests" */;
+			buildPhases = (
+				4237E64D2179D2A20012EE3E /* Sources */,
+				4237E64E2179D2A20012EE3E /* Frameworks */,
+				4237E64F2179D2A20012EE3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4237E6532179D2A20012EE3E /* PBXTargetDependency */,
+			);
+			name = LKAnimationHubExampleTests;
+			productName = LKAnimationHubExampleTests;
+			productReference = 4237E6512179D2A20012EE3E /* LKAnimationHubExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4237E65B2179D2A20012EE3E /* LKAnimationHubExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4237E66B2179D2A20012EE3E /* Build configuration list for PBXNativeTarget "LKAnimationHubExampleUITests" */;
+			buildPhases = (
+				4237E6582179D2A20012EE3E /* Sources */,
+				4237E6592179D2A20012EE3E /* Frameworks */,
+				4237E65A2179D2A20012EE3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4237E65E2179D2A20012EE3E /* PBXTargetDependency */,
+			);
+			name = LKAnimationHubExampleUITests;
+			productName = LKAnimationHubExampleUITests;
+			productReference = 4237E65C2179D2A20012EE3E /* LKAnimationHubExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4237E6312179D2A10012EE3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Beauty;
+				TargetAttributes = {
+					4237E6382179D2A10012EE3E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					4237E6502179D2A20012EE3E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 4237E6382179D2A10012EE3E;
+					};
+					4237E65B2179D2A20012EE3E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 4237E6382179D2A10012EE3E;
+					};
+				};
+			};
+			buildConfigurationList = 4237E6342179D2A10012EE3E /* Build configuration list for PBXProject "LKAnimationHubExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4237E6302179D2A10012EE3E;
+			productRefGroup = 4237E63A2179D2A10012EE3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4237E6382179D2A10012EE3E /* LKAnimationHubExample */,
+				4237E6502179D2A20012EE3E /* LKAnimationHubExampleTests */,
+				4237E65B2179D2A20012EE3E /* LKAnimationHubExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4237E6372179D2A10012EE3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4237E6492179D2A20012EE3E /* LaunchScreen.storyboard in Resources */,
+				4237E6462179D2A20012EE3E /* Assets.xcassets in Resources */,
+				4237E6442179D2A10012EE3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4237E64F2179D2A20012EE3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4237E65A2179D2A20012EE3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4237E6352179D2A10012EE3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4237E6412179D2A10012EE3E /* ViewController.m in Sources */,
+				4237E64C2179D2A20012EE3E /* main.m in Sources */,
+				4237E6712179D2DF0012EE3E /* LKAnimationView.m in Sources */,
+				4237E63E2179D2A10012EE3E /* AppDelegate.m in Sources */,
+				4237E6742179D3ED0012EE3E /* LKAnimationHub.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4237E64D2179D2A20012EE3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4237E6562179D2A20012EE3E /* LKAnimationHubExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4237E6582179D2A20012EE3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4237E6612179D2A20012EE3E /* LKAnimationHubExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4237E6532179D2A20012EE3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4237E6382179D2A10012EE3E /* LKAnimationHubExample */;
+			targetProxy = 4237E6522179D2A20012EE3E /* PBXContainerItemProxy */;
+		};
+		4237E65E2179D2A20012EE3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4237E6382179D2A10012EE3E /* LKAnimationHubExample */;
+			targetProxy = 4237E65D2179D2A20012EE3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4237E6422179D2A10012EE3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4237E6432179D2A10012EE3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4237E6472179D2A20012EE3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4237E6482179D2A20012EE3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4237E6632179D2A20012EE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4237E6642179D2A20012EE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4237E6662179D2A20012EE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 376R35ZWPD;
+				INFOPLIST_FILE = LKAnimationHubExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beauty.LKAnimationHubExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4237E6672179D2A20012EE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 376R35ZWPD;
+				INFOPLIST_FILE = LKAnimationHubExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beauty.LKAnimationHubExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4237E6692179D2A20012EE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 376R35ZWPD;
+				INFOPLIST_FILE = LKAnimationHubExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beauty.LKAnimationHubExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKAnimationHubExample.app/LKAnimationHubExample";
+			};
+			name = Debug;
+		};
+		4237E66A2179D2A20012EE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 376R35ZWPD;
+				INFOPLIST_FILE = LKAnimationHubExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beauty.LKAnimationHubExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKAnimationHubExample.app/LKAnimationHubExample";
+			};
+			name = Release;
+		};
+		4237E66C2179D2A20012EE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 376R35ZWPD;
+				INFOPLIST_FILE = LKAnimationHubExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beauty.LKAnimationHubExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LKAnimationHubExample;
+			};
+			name = Debug;
+		};
+		4237E66D2179D2A20012EE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 376R35ZWPD;
+				INFOPLIST_FILE = LKAnimationHubExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beauty.LKAnimationHubExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LKAnimationHubExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4237E6342179D2A10012EE3E /* Build configuration list for PBXProject "LKAnimationHubExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4237E6632179D2A20012EE3E /* Debug */,
+				4237E6642179D2A20012EE3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4237E6652179D2A20012EE3E /* Build configuration list for PBXNativeTarget "LKAnimationHubExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4237E6662179D2A20012EE3E /* Debug */,
+				4237E6672179D2A20012EE3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4237E6682179D2A20012EE3E /* Build configuration list for PBXNativeTarget "LKAnimationHubExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4237E6692179D2A20012EE3E /* Debug */,
+				4237E66A2179D2A20012EE3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4237E66B2179D2A20012EE3E /* Build configuration list for PBXNativeTarget "LKAnimationHubExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4237E66C2179D2A20012EE3E /* Debug */,
+				4237E66D2179D2A20012EE3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4237E6312179D2A10012EE3E /* Project object */;
+}
