@@ -17,6 +17,7 @@
 		4237E6612179D2A20012EE3E /* LKAnimationHubExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4237E6602179D2A20012EE3E /* LKAnimationHubExampleUITests.m */; };
 		4237E6712179D2DF0012EE3E /* LKAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4237E6702179D2DF0012EE3E /* LKAnimationView.m */; };
 		4237E6742179D3ED0012EE3E /* LKAnimationHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 4237E6732179D3ED0012EE3E /* LKAnimationHub.m */; };
+		4237E6762179DF2F0012EE3E /* gif.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 4237E6752179DF2F0012EE3E /* gif.GIF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		4237E6702179D2DF0012EE3E /* LKAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKAnimationView.m; sourceTree = "<group>"; };
 		4237E6722179D3ED0012EE3E /* LKAnimationHub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKAnimationHub.h; sourceTree = "<group>"; };
 		4237E6732179D3ED0012EE3E /* LKAnimationHub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKAnimationHub.m; sourceTree = "<group>"; };
+		4237E6752179DF2F0012EE3E /* gif.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.GIF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		4237E63B2179D2A10012EE3E /* LKAnimationHubExample */ = {
 			isa = PBXGroup;
 			children = (
+				4237E6752179DF2F0012EE3E /* gif.GIF */,
 				4237E66E2179D2A90012EE3E /* LKAnimationHub */,
 				4237E63C2179D2A10012EE3E /* AppDelegate.h */,
 				4237E63D2179D2A10012EE3E /* AppDelegate.m */,
@@ -255,6 +258,7 @@
 			files = (
 				4237E6492179D2A20012EE3E /* LaunchScreen.storyboard in Resources */,
 				4237E6462179D2A20012EE3E /* Assets.xcassets in Resources */,
+				4237E6762179DF2F0012EE3E /* gif.GIF in Resources */,
 				4237E6442179D2A10012EE3E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
